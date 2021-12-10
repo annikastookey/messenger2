@@ -1,0 +1,3 @@
+in chats, if no last message, decide on formatting
+add time stamps and display them beside the name in the chats
+go on godaddy.com and see what domain i might want to pick up

@@ -1,0 +1,8 @@
+{
+  "sampleNumber": 42,
+  "sampleArray": [3, 6, 8],
+  "sampleText": "Messages",
+  "sampleObject": {
+    "key": "value"
+  }
+}
