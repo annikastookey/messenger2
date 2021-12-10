@@ -30,6 +30,13 @@ window.onload = initialize;
 
 function initialize() {
   console.log("initializing");
+  // let params = (new URL(location)).searchParams;
+  // console.log(params.toString());
+  let queryString = window.location.search;
+  console.log(queryString);
+  let urlParams = new URLSearchParams(queryString);
+  let id = Number(urlParams.get("chatID"));
+  console.log(id);
   document
     .getElementById("backButton")
     .addEventListener("click", returnToChats);
